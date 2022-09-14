@@ -1,0 +1,16 @@
+.root {
+  @apply relative bg-base-bg border-b-1 border-action-primary;
+}
+
+.root.isInline {
+  @apply border-1 border-base-border;
+}
+
+.wrapper {
+  @apply px-5 py-5 mx-auto text-center max-w-wrapper;
+  @apply md:flex md:items-center md:justify-center md:flex-nowrap;
+}
+
+.isInline .wrapper {
+  @apply block;
+}

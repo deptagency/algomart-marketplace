@@ -1,0 +1,42 @@
+.root {
+  @apply p-6 mt-12 border-1 border-gray-400 rounded-t-xl bg-white;
+  @apply sm:flex sm:gap-8;
+}
+
+.collectionImage {
+  @apply mb-5;
+  min-width: 300px;
+}
+
+.collectionImage img {
+  @apply block;
+}
+
+.rewardImage {
+  @apply block;
+  max-width: 30px;
+}
+
+.content {
+  @apply mb-5 text-base leading-normal;
+}
+
+.totalCollected {
+  @apply flex justify-between mb-1;
+}
+
+.totalCollected strong:first-child {
+  @apply uppercase;
+}
+
+.progressOuter {
+  @apply relative h-3 mb-3 overflow-hidden rounded-full border-1 border-action-primary bg-white;
+}
+
+.progressInner {
+  @apply absolute w-0 h-full transition-all duration-1000 ease-in-out rounded-full bg-action-primary;
+}
+
+.button {
+  @apply mt-4;
+}

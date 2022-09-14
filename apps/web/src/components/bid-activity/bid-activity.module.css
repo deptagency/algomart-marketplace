@@ -1,0 +1,11 @@
+.bidActivity {
+  @apply mt-6 bg-base-bgCard;
+}
+
+.title {
+  @apply p-6 text-2xl font-bold text-center;
+}
+
+.list {
+  @apply border-t border-base-border px-7;
+}

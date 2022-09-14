@@ -1,0 +1,36 @@
+.root {
+  @apply bg-base-bg border-1 border-base-borderPrimary bg-opacity-80;
+}
+
+.header {
+  @apply flex p-5 border-b-1 border-base-borderPrimary;
+}
+
+.padContent {
+  @apply m-10;
+}
+
+.hScrollContent {
+  @apply relative overflow-x-scroll;
+}
+
+.description {
+  @apply text-sm text-base-textTertiary;
+}
+
+.contentLeft {
+  @apply self-center;
+}
+
+.contentRight {
+  @apply flex justify-end flex-auto flex-grow flex-shrink;
+}
+
+.collapseButton {
+  @apply p-4 ml-4 -my-4 -mr-4 text-xl text-action-accent;
+  @apply hover:text-base-textPrimary;
+}
+
+.footer {
+  @apply flex items-center justify-between gap-8 p-5 border-t-1 border-base-border text-base-textSecondary;
+}

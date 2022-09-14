@@ -1,0 +1,35 @@
+.section:not(:last-child) {
+  @apply mb-10;
+}
+
+.section:last-child {
+  @apply border-0;
+}
+
+.sectionHeader {
+  @apply flex items-center justify-between;
+}
+
+.sectionHeading {
+  @apply mb-1 text-lg;
+}
+
+.confirmation {
+  @apply mb-2 text-sm font-normal text-right text-base-textSecondary;
+}
+
+.error {
+  @apply mb-2 text-sm font-normal text-right text-base-error;
+}
+
+.sectionContent {
+  @apply p-6 my-3 rounded-md border-1 border-gray-200;
+}
+
+.sectionContentLarge {
+  @apply p-12 rounded-md border-base-border;
+}
+
+.sectionText {
+  @apply mb-6;
+}

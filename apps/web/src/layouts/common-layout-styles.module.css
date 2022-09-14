@@ -1,0 +1,10 @@
+.pageTitle {
+  @apply mb-6 text-center;
+}
+
+.hideInMobile {
+  /* Base */
+  @apply hidden;
+  /* Tablet + */
+  @apply md:block;
+}

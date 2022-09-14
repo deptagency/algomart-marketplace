@@ -1,0 +1,98 @@
+.root {
+  @apply px-4 mx-auto max-w-520;
+  @apply md:max-w-700 md:px-0;
+  @apply xl:max-w-960;
+}
+
+.title {
+  @apply text-center text-xl;
+  @apply md:text-2xl;
+}
+
+.navButton {
+  @apply opacity-0 transition;
+  @apply absolute top-1/2 text-base-textTertiary -mt-8;
+  @apply hover:text-action-accent focus:text-action-accent hover:scale-110 focus:scale-110;
+  @apply sm:opacity-100;
+}
+
+.navButtonLeft {
+  @apply -left-8;
+  @apply lg:-left-16;
+  @apply xl:-left-24;
+}
+
+.navButtonRight {
+  @apply -right-8;
+  @apply lg:-right-16;
+  @apply xl:-right-24;
+}
+
+.imageWrapper {
+  @apply relative my-5;
+}
+
+.detail {
+  @apply my-5 text-sm text-center text-base-textSecondary;
+  @apply md:text-left md:grid md:grid-cols-3 md:flex-row;
+}
+
+.detailCenter {
+  @apply uppercase text-base-textSecondary;
+  @apply md:text-center;
+}
+.detailLeft {
+}
+.detailRight {
+  @apply md:text-right;
+}
+
+.gallery {
+  @apply grid grid-cols-4 gap-5;
+  @apply md:grid-cols-8;
+}
+
+.galleryButton {
+  @apply col-span-1 p-0 m-0 transition-opacity bg-transparent border-none;
+}
+
+.galleryButtonUnselected {
+  @apply opacity-50 hover:opacity-100;
+}
+
+.emphasize {
+  @apply font-semibold text-base-textPrimary;
+}
+
+.flipButton {
+  @apply block mx-auto text-base-textSecondary mt-2;
+  @apply text-sm hover:text-action-accent;
+}
+
+.flipBox {
+  @apply w-full;
+  aspect-ratio: 1;
+  perspective: 1000px;
+}
+
+.flipBoxInner {
+  @apply relative;
+  @apply w-full h-full;
+  @apply transition-transform duration-700 origin-center;
+  transform-style: preserve-3d;
+}
+
+.flipBox.flip .flipBoxInner,
+.flipBoxBack {
+  transform: rotateX(180deg);
+}
+
+.flipBoxFront,
+.flipBoxBack {
+  @apply absolute w-full h-full bg-black;
+  backface-visibility: hidden;
+}
+
+.flipBoxFront {
+  @apply flex text-center;
+}

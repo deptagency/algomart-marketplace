@@ -1,0 +1,7 @@
+.avatarWrapper {
+  @apply flex items-center justify-center mt-12;
+}
+
+.buttonContainer {
+  @apply mt-6 text-center;
+}

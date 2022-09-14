@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "python.formatting.provider": "black",
+  "css.lint.unknownAtRules": "ignore"
+}

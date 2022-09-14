@@ -1,0 +1,34 @@
+.container {
+  @apply px-4 pt-4 pb-20;
+}
+
+.dialog {
+  @apply relative w-full max-w-lg my-8 overflow-visible sm:w-full;
+}
+
+.root {
+  @apply flex flex-col justify-start h-full px-8 sm:px-16;
+}
+
+.notice {
+  @apply mt-1 italic;
+}
+
+.closeButton {
+  @apply absolute top-0 right-0 z-50;
+}
+
+.list {
+  @apply mt-2 text-left list-decimal;
+}
+.list li {
+  @apply mb-1 ml-5;
+}
+
+.section {
+  @apply py-6;
+}
+
+.link {
+  @apply block pt-2 underline;
+}

@@ -1,0 +1,15 @@
+.viewOnChainButton {
+  /* Base */
+  @apply px-0 mb-1 text-sm text-right underline;
+  /* Tablet + */
+  @apply md:mb-2;
+}
+
+.viewOnChainButton svg {
+  @apply hidden ml-1;
+  @apply sm:inline-block;
+}
+
+.columns {
+  @apply flex items-center justify-between;
+}

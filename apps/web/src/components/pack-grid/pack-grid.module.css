@@ -1,0 +1,96 @@
+.packHeader {
+  @apply mt-6 text-center;
+}
+
+.packTitle {
+  @apply text-white;
+}
+
+.packSubtitle {
+  @apply mb-2 text-sm text-center uppercase text-action-primary;
+}
+
+.gridWrapper {
+  /* Base */
+  @apply grid justify-center grid-cols-1 gap-6 px-5 mt-8 justify-items-center;
+  /* Mobile + */
+  @apply sm:grid-cols-2;
+  /* Tablet + */
+  @apply md:grid-cols-3 md:gap-9 md:my-0 md:mx-auto md:max-w-wrapper;
+}
+
+.gridWrapper.double {
+  /* Mobile + */
+  @apply sm:grid-cols-2;
+  /* Tablet + */
+  @apply md:grid-cols-2;
+}
+
+.gridWrapper.single {
+  /* Mobile + */
+  @apply sm:grid-cols-1 sm:gap-0;
+  /* Tablet + */
+  @apply md:grid-cols-1 md:gap-0;
+}
+
+.mintStatus {
+  @apply mt-12 text-center text-white;
+}
+
+.viewCollectionButton {
+  @apply relative block mx-auto mt-6;
+}
+.viewCollectionButton[disabled] {
+  @apply opacity-100;
+}
+
+.viewCollectionButton[disabled] span + div {
+  @apply text-white;
+}
+
+/* Transfer Status */
+.transferContainer {
+  @apply self-center w-full max-w-lg px-4 pt-4 m-auto text-center sm:w-full;
+}
+
+.imageWrapper {
+  @apply relative flex self-center p-2 -mb-4 rounded-md -top-8 bg-action-secondary;
+}
+
+.image {
+  @apply w-full h-full;
+}
+
+.instructionText {
+  @apply pt-5 pb-10 text-sm text-white;
+}
+
+.loadingWrapper {
+  @apply block my-6;
+}
+
+.statusWrapper {
+  @apply my-6;
+}
+
+.statusHeading {
+  @apply my-2 text-lg font-bold text-white;
+}
+
+.statusMessage {
+  @apply text-sm text-white;
+}
+
+.errorIcon {
+  @apply relative mx-auto text-base-error;
+  width: 48px;
+}
+
+.successIcon {
+  @apply mx-auto text-base-price;
+  width: 48px;
+}
+
+.button {
+  @apply w-full mt-8;
+}

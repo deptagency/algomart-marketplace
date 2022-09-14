@@ -1,0 +1,90 @@
+.root {
+  @apply max-w-[64rem] my-0 mx-auto py-10;
+}
+
+.nftCard {
+  @apply bg-white rounded-lg shadow-lg p-5;
+}
+
+.topSection {
+  @apply pb-6;
+}
+.bottomSection {
+  @apply pb-10 mx-4;
+}
+
+.container {
+  @apply max-w-5xl mx-auto;
+}
+
+.ownership {
+  @apply flex flex-col items-center mb-10;
+}
+.ownedByLabel {
+  @apply text-[#3E5396] uppercase;
+}
+.currentOwner {
+  @apply mb-4;
+}
+.sellButton,
+.purchaseButton {
+  @apply w-60;
+}
+
+.panelHeader {
+  @apply p-6 text-center;
+}
+
+.backToCollectionLink {
+  @apply flex items-center gap-2 mb-6 transition hover:text-base-textSecondary;
+}
+
+.underlineLink {
+  @apply underline;
+}
+
+.nftMetaList {
+  @apply divide-y divide-base-border mt-8;
+}
+
+.nftMetaListItem {
+  @apply flex flex-row py-4 basis-full;
+}
+
+.nftMetaListCol {
+  @apply flex flex-col flex-1;
+}
+
+.nftMetaLabel {
+  @apply font-bold;
+}
+
+.releaseDesc {
+  @apply border-0 !important;
+  @apply md:mb-6;
+}
+
+.icon {
+  @apply inline-block w-5 h-5 mr-4 text-action-accent;
+}
+
+.mediaWrapper {
+  @apply relative overflow-hidden;
+}
+.ribbon {
+  @apply absolute font-bold leading-10 tracking-wider text-center text-white uppercase rotate-45 bg-action-accent w-52 -right-16 top-5;
+}
+
+.majorDetailsWrapper {
+  @apply flex justify-between mt-3 mb-5;
+}
+
+.nftSection {
+  @apply rounded-lg p-5 mb-10;
+}
+
+.nftActivityList,
+.nftActivityList td,
+.nftActivityList thead {
+  background: none !important;
+}

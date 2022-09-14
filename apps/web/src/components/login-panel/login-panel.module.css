@@ -1,0 +1,41 @@
+.root {
+  @apply relative mx-auto;
+  /* Tablet + */
+  @apply md:overflow-hidden;
+}
+
+.buttonContainer {
+  @apply flex flex-col max-w-md m-12 mx-auto space-y-8;
+}
+
+.buttonGoogle {
+  @apply flex items-center justify-center max-h-[50px];
+}
+
+.button div {
+  @apply relative flex items-center w-16 h-5;
+}
+
+.button span {
+  @apply mr-2;
+}
+
+.buttonImageText {
+  @apply ml-2;
+}
+
+.signupPrompt {
+  @apply pt-6 text-center border-t border-action-primary;
+}
+
+.featuredWrapper {
+  @apply flex flex-col bg-base-bgCard;
+}
+
+.featuredBottom {
+  @apply relative py-12 mx-auto;
+}
+
+.featuredBottomText {
+  @apply mt-8 text-lg text-center text-white;
+}

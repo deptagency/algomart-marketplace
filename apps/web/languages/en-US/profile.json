@@ -1,0 +1,21 @@
+{
+  "Age": "Age",
+  "Algorand Wallet Address": "Algorand Wallet Address",
+  "Confirm new email": "Confirm new email",
+  "Email Address": "Email Address",
+  "googleSecurity": "<0>Your profile is authenticated through <1>your Google account</1>.</0>",
+  "Local Currency": "Local Currency",
+  "My Profile": "My Profile",
+  "Payment Methods": "Payment Methods",
+  "resetAgeConfirmation": "Your age has been saved",
+  "resetCurrencyConfirmation": "Your currency has been updated.",
+  "resetEmailConfirmation": "Your email has been updated.",
+  "resetEmailPrompt": "<0>If you would like to change the email address associated with your account, please confirm your new email address below. <1>Note: this action cannot be undone.</1></0>",
+  "resetLanguageConfirmation": "Your language has been updated.",
+  "resetPasswordConfirmation": "Check your email.",
+  "resetPasswordPrompt": "If you would like to reset your password, click the button below and check the email address associated with your account.",
+  "resetProfilePicConfirmation": "Your profile image has been updated.",
+  "resetUsernameConfirmation": "Your username has been updated.",
+  "Security": "Security",
+  "Site Language": "Site Language"
+}

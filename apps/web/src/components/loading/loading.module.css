@@ -1,0 +1,16 @@
+.root {
+  @apply relative mx-auto text-center;
+}
+
+.loadingWrapper {
+  @apply inline-block ease-in-out animate-spin;
+  animation-duration: 2s;
+}
+
+.loadingText {
+  @apply mt-4 text-center;
+}
+
+.svg {
+  @apply w-20;
+}

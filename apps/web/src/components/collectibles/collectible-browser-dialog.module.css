@@ -1,0 +1,25 @@
+.container {
+  @apply fixed inset-0;
+}
+
+/* Specificity war with dialog content class :\ */
+.content.content {
+  @apply w-full max-h-screen overflow-auto text-base-textPrimary bg-[#0A111D] max-w-none;
+}
+
+.overlay {
+  @apply bg-opacity-100;
+}
+
+.closeButton {
+  @apply right-0 w-8 h-auto p-0 rounded-full transition;
+  @apply hover:text-action-accent focus:text-action-accent;
+}
+
+.root {
+  @apply absolute flex items-center justify-between top-5 left-8 right-8;
+}
+
+.browserWrapper {
+  @apply mt-16;
+}

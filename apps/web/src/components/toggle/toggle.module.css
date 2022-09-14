@@ -1,0 +1,63 @@
+.innerInput {
+  @apply inline-block w-4 h-4 transition-all transform bg-white rounded-full;
+}
+
+.innerInputEnabled {
+  @apply translate-x-6;
+}
+
+.innerInputNotEnabled {
+  @apply translate-x-1;
+}
+
+.input {
+  @apply relative inline-flex items-center flex-shrink-0 h-6 transition-all rounded-full w-11;
+}
+
+.input:active:not(:focus-visible) .innerInputEnabled {
+  @apply translate-x-5;
+}
+.input:active:not(:focus-visible) .innerInputNotEnabled {
+  @apply translate-x-2;
+}
+
+.input:active:not(:focus-visible) {
+  @apply bg-opacity-70;
+}
+
+.labelContainer {
+  @apply relative flex items-center content-between;
+}
+
+.label {
+  @apply flex-initial ml-3 text-base font-normal;
+}
+
+.small.label {
+  @apply text-sm;
+}
+
+.helpText {
+  @apply flex-1 mt-1 ml-4 text-sm font-normal text-right text-base-textTertiary;
+}
+
+.errorText {
+  @apply flex-1 mt-1 ml-4 text-sm font-normal text-right text-base-error;
+}
+
+.toggleNotEnabled {
+  @apply bg-opacity-40 bg-action-primary;
+}
+
+.toggleEnabled {
+  @apply bg-blue-gradient-vert;
+}
+
+.disabled {
+  @apply bg-base-textDisabled;
+  pointer-events: none;
+}
+
+.disabled + input + .label {
+  @apply text-base-textDisabled;
+}

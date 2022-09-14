@@ -1,0 +1,7 @@
+.profileImageForm label {
+  @apply hidden;
+}
+
+.profileImageForm label + div {
+  @apply mt-0 bg-base-bgCard border-1 border-base-border;
+}

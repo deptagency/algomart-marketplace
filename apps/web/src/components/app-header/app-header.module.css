@@ -1,0 +1,132 @@
+.root {
+  @apply relative z-20 w-full h-[73px] shadow-md;
+  @apply md:bg-transparent md:relative md:shadow-none;
+}
+
+.rootMobileVisible {
+  @apply fixed h-auto overflow-hidden bg-base-bgCard;
+}
+
+.languageSelect {
+  @apply hidden lg:block;
+}
+
+.header {
+  @apply w-full h-full px-4 py-1 border-b-1 border-gray-300 bg-base-bgCard;
+  @apply md:py-2;
+}
+
+.rootMobileVisible .header {
+  @apply border-action-secondary;
+}
+
+.headerWrapper {
+  @apply relative flex items-center justify-between m-auto max-w-wrapper;
+}
+
+.hamburgerWrapper {
+  @apply flex p-1 align-middle bg-white rounded-full bg-opacity-10;
+  @apply lg:hidden;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.burger {
+  @apply transition duration-300 text-action-link hover:text-action-linkHover active:text-action-linkHover;
+  width: 24px;
+}
+
+.mainNavWrapper {
+  @apply lg:flex h-14;
+}
+
+.logo {
+  @apply absolute left-1/2 -ml-[84px] top-5;
+  @apply md:ml-[-112px] md:top-4;
+  @apply lg:flex lg:items-center lg:justify-start lg:static lg:ml-0;
+}
+.logo svg {
+  @apply md:h-10 md:w-[114px];
+}
+
+.mainNav {
+  @apply relative self-stretch ml-12;
+}
+
+.mobileNavBottom {
+  @apply grid grid-flow-row gap-7 py-7;
+  @apply lg:hidden;
+}
+
+.mainNavItems {
+  @apply items-center justify-center flex-1 hidden h-full gap-7;
+  @apply lg:flex;
+}
+
+.mainNavLink {
+  /* must inherit font size since this is used on mobile nav menu as well */
+  @apply uppercase transition duration-300 focus:outline-none text-base-textPrimary;
+}
+
+.mainNavLinkActive {
+  @apply text-action-accent;
+  @apply md:text-base-textPrimary md:pb-px md:border-b-1 md:border-b-[rgba(255,255,255,0.4)];
+}
+
+.accountActions {
+  @apply grid items-center grid-flow-col gap-7 justify-self-end;
+  @apply lg:relative;
+}
+
+.accountActionsLink {
+  @apply grid items-center grid-flow-col gap-2 text-sm no-underline;
+}
+
+.accountActionsLink img {
+  @apply block transition duration-300 rounded-full outline-none bg-base-bgCard text-base-textPrimary focus:ring-2 focus:ring-action-secondary focus:ring-offset-2 focus:ring-opacity-50 hover:bg-action-secondary hover:bg-opacity-50;
+}
+
+.createAccountButton {
+  @apply hidden uppercase;
+  @apply lg:inline-block;
+}
+
+.avatarGeneric {
+  @apply w-6 md:hidden;
+}
+
+/* Mobile burger menu stuff */
+.mobileNav {
+  @apply hidden;
+}
+
+.rootMobileVisible .mobileNav {
+  @apply flex flex-col gap-4 overflow-y-scroll;
+  @apply lg:hidden;
+  height: calc(100vh - 57px);
+}
+
+.creditsBox {
+  @apply p-6 mx-10 mt-10 leading-snug text-center rounded-lg bg-action-tertiary;
+}
+.creditsValue {
+  @apply text-2xl font-black;
+}
+.creditsValue > span {
+  @apply block mb-2 text-lg text-base-textSecondary;
+}
+
+.mobileNavItems {
+  @apply flex flex-col flex-1 mx-10 mt-3 text-xl;
+}
+.mobileNavItems .mainNavLink {
+  @apply block py-3 font-bold capitalize;
+}
+
+.mobileUtilityLinks {
+  @apply px-10 py-5 bg-action-tertiary;
+}
+.mobileUtilityLinks > * {
+  @apply block py-3 text-lg font-bold text-left text-opacity-25 transition duration-300 text-base-textPrimary;
+  text-transform: unset;
+  padding: 0.75rem 0 !important;
+}

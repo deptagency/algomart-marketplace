@@ -1,0 +1,45 @@
+/* Common auth input styles */
+
+.passwordBlock {
+  @apply mb-6;
+}
+
+.helpLink {
+  @apply block mt-2 text-xs text-right;
+}
+
+/* Profile Image Input */
+
+.profileImageContainer {
+  @apply flex items-center justify-between p-5;
+}
+
+.profileImageContainer.noPad {
+  @apply p-0;
+}
+
+.profileImageContainer.light {
+  @apply bg-white border-white rounded-md bg-opacity-10 border-1 border-opacity-20;
+}
+
+.avatarContainer {
+  @apply block overflow-hidden rounded-full bg-action-primary;
+  height: 50px;
+  width: 50px;
+}
+
+.avatarWithImage {
+  @apply object-cover w-full h-full;
+}
+
+.avatarWithoutImage {
+  @apply w-full p-3;
+}
+
+.profileImageActions {
+  @apply flex items-center gap-5;
+}
+
+.profileImageChange {
+  @apply flex items-center gap-5;
+}

@@ -1,0 +1,23 @@
+.viewportPadding {
+  @apply p-5;
+  /* 768+ */
+  @apply md:py-0;
+}
+
+.panelContainer {
+  @apply mx-auto max-w-700;
+  /* 768+ */
+  @apply md:my-12;
+}
+.panelContainer.largeWidth {
+  @apply max-w-960;
+}
+
+.panel {
+  @apply flex flex-col bg-base-bgCard rounded-lg shadow-xl;
+}
+.withPadding .panel {
+  @apply px-8 py-16;
+  /* 768+ */
+  @apply md:px-20;
+}

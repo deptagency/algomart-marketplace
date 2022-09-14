@@ -1,0 +1,29 @@
+.root {
+  /* Base */
+  @apply flex items-center justify-center mb-5;
+  /* Tablet + */
+  @apply md:mb-8;
+}
+
+.tabsContainer {
+  /* Base */
+  @apply relative flex w-full overflow-hidden rounded-sm bg-white shadow-lg;
+  /* Tablet + */
+  @apply md:w-auto;
+}
+
+.tab {
+  /* Base */
+  @apply flex items-center justify-center flex-grow px-4 text-base text-center no-underline transition-colors cursor-pointer h-11 text-base-textPrimary;
+  /* Base: Focus and Hover */
+  @apply focus:outline-none hover:text-action-linkHover focus:text-action-linkHover;
+  /* Tablet + */
+  @apply md:px-6;
+}
+.tabWide {
+  @apply md:w-40;
+}
+
+.tabActive {
+  @apply transition-all duration-300 bg-teal text-action-secondaryContrastText hover:text-base-textPrimary focus:text-base-textPrimary;
+}

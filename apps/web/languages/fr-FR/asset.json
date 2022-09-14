@@ -1,0 +1,17 @@
+{
+  "Asset Name": "Nom de l'actif",
+  "createFail": "Échec de la création d'actifs",
+  "createSuccess": "Bravo! Actif(s) créé(s)",
+  "Description": "Description",
+  "Editions": "Éditions",
+  "editionsDescription": "1 unique article ou une édition d'articles",
+  "Release Description": "Publier Description",
+  "Release Slug": "Publier Slug",
+  "Release Title": "Publier Titre",
+  "Unit Name": "Nom de l´unité",
+  "sorting": {
+    "Name": "Nom",
+    "Newest": "Nouveau / Le plus récent",
+    "Oldest": "Ancien / Le plus ancien"
+  }
+}

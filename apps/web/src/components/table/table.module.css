@@ -1,0 +1,50 @@
+.table {
+  @apply w-full border-1 border-base-borderPrimary bg-base-bg;
+}
+.noOuterBorder {
+  @apply border-0;
+}
+.fixedLayout {
+  @apply table-fixed;
+}
+
+.thead {
+  @apply bg-base-bgCard;
+}
+
+.th {
+  @apply px-6 py-2 overflow-x-hidden text-xs font-semibold tracking-wider text-left uppercase border-base-borderPrimary border-b-1;
+}
+.th.sortable {
+  @apply cursor-pointer hover:underline;
+}
+.sortIcon {
+  @apply inline w-3 h-3 ml-1 transition-transform transform-gpu;
+}
+.sortIcon.sortAsc {
+  @apply rotate-180;
+}
+
+.tr {
+  @apply border-b border-base-borderPrimary;
+}
+
+.tr:last-of-type {
+  @apply border-b-0;
+}
+
+.td {
+  @apply px-6 py-4 overflow-x-hidden text-sm text-base-textPrimary whitespace-nowrap;
+}
+
+.tbody {
+  @apply overflow-auto bg-base-bgCard;
+}
+
+.nullish {
+  @apply text-base-textDisabled;
+}
+
+.noResults {
+  @apply py-10 text-center;
+}

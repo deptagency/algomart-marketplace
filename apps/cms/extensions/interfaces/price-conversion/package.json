@@ -1,0 +1,15 @@
+{
+  "name": "directus-extension-interface-price-conversion",
+  "version": "1.0.0",
+  "private": true,
+  "directus:extension": {
+    "type": "interface",
+    "path": "index.js",
+    "source": "src/index.ts",
+    "host": "9.16.1",
+    "hidden": false
+  },
+  "scripts": {
+    "build": "directus-extension build"
+  }
+}

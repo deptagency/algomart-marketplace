@@ -1,0 +1,29 @@
+.listItem {
+  @apply flex items-center w-full py-5;
+}
+
+.listItem + .listItem {
+  @apply border-t border-base-border;
+}
+
+.firstColumn {
+  @apply overflow-hidden transition duration-300 bg-white rounded-full outline-none text-base-textPrimary;
+  height: 36px;
+  width: 36px;
+}
+
+.secondColumn {
+  @apply flex-auto ml-5;
+}
+
+.heading {
+  @apply font-bold;
+}
+
+.date {
+  @apply text-sm text-base-textPrimary;
+}
+
+.amount {
+  @apply flex-none font-bold;
+}

@@ -1,0 +1,27 @@
+.root {
+  @apply flex justify-center;
+}
+
+.pageNumbersList {
+  @apply flex items-center p-0 m-0;
+}
+
+.listItem {
+  @apply list-none;
+}
+
+.listItem:not(:last-of-type) {
+  @apply pr-2.5;
+}
+
+.pageNumber {
+  @apply w-10 h-10;
+}
+
+.currentPageNumber {
+  @apply text-white bg-action-secondary;
+}
+
+.otherPageNumbers {
+  @apply underline text-base-textPrimary;
+}

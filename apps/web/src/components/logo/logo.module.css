@@ -1,0 +1,8 @@
+.svg:global(.footer-logo) {
+  @apply relative mx-auto;
+  @apply md:w-full md:mx-0;
+}
+
+.link {
+  @apply outline-none focus:ring-offset-2 focus:ring-white;
+}

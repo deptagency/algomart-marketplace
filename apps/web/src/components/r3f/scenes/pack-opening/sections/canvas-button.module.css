@@ -1,0 +1,7 @@
+.root {
+  @apply block px-10 py-5 text-lg uppercase transition duration-300 scale-100 border-none rounded-full opacity-100 bg-blue-gradient-horz w-72 hover:bg-opacity-80 hover:scale-125;
+}
+
+.root.invisible {
+  opacity: 0;
+}

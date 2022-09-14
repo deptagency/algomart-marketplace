@@ -1,0 +1,11 @@
+.inputWrapper {
+  @apply relative flex items-center gap-4;
+}
+
+.editButton {
+  @apply absolute underline right-4;
+}
+
+.cancelButton {
+  @apply underline;
+}

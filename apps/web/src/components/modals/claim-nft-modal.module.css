@@ -1,0 +1,69 @@
+.container {
+  @apply px-4 pt-4 pb-20;
+}
+
+.dialog {
+  @apply relative w-full max-w-lg my-8 overflow-visible bg-base-bg text-base-textPrimary sm:w-full;
+}
+
+.root {
+  @apply flex flex-col items-center justify-start h-full px-8 text-center sm:px-16;
+}
+
+.imageWrapper {
+  @apply relative flex self-center mb-4 -mt-16 rounded-md;
+}
+
+.form {
+  @apply mt-10 mb-10;
+}
+
+.form label {
+  @apply text-center;
+}
+
+.form label span {
+  @apply block w-full text-base;
+}
+
+.image {
+  @apply w-full h-full;
+}
+
+.closeButton {
+  @apply absolute top-0 right-0 z-50;
+}
+
+.instructionText {
+  @apply mb-10 text-sm text-base-textPrimary;
+}
+
+.loadingWrapper {
+  @apply block my-6;
+}
+
+.statusWrapper {
+  @apply my-6;
+}
+
+.statusHeading {
+  @apply my-2 text-lg font-bold text-base-textPrimary;
+}
+
+.statusMessage {
+  @apply text-sm text-base-textPrimary;
+}
+
+.errorIcon {
+  @apply relative mx-auto text-base-error;
+  width: 48px;
+}
+
+.successIcon {
+  @apply mx-auto text-base-price;
+  width: 48px;
+}
+
+.button {
+  @apply w-full mt-8;
+}

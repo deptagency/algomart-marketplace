@@ -1,0 +1,15 @@
+.dockerignore
+.git
+.github
+.husky
+**/.env*
+**/.gitignore
+**/.next
+**/.postgres
+**/.vercel
+**/cypress
+**/Dockerfile*
+contracts
+docker-compose*.yml
+docs
+terraform
